@@ -1,9 +1,10 @@
 import express from "express"
 import cors from "cors"
+import path from "path"
 import restaurants from "./api/restaurants.route.js"
 
 const app = express()
-const path = require('path');
+// const path = path()
 
 app.use(cors())
 app.use(express.json())
